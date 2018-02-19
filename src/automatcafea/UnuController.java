@@ -2,6 +2,7 @@ package automatcafea;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
@@ -48,53 +49,61 @@ public class UnuController {
     private Button buton9;
 
     @FXML
-    void maideparte1(MouseEvent  event) {
-
-    }
-
-    @FXML
-    void maideparte2(MouseEvent  event) {
-
-    }
-
-    @FXML
-    void maideparte3(MouseEvent  event) {
-
-    }
-
-    @FXML
-    void maideparte4(MouseEvent  event) {
-
-    }
-
-    @FXML
-    void maideparte5(MouseEvent  event) {
-
-    }
-
-    @FXML
-    void maideparte6(MouseEvent  event) {
-
-    }
-
-    @FXML
-    void maideparte7(MouseEvent  event) {
-
-    }
-
-    @FXML
-    void maideparte8(MouseEvent  event) {
-
-    }
-
-    @FXML
-    void maideparte9(MouseEvent event) {
+    void maideparte1(ActionEvent event) {
 // Incarc ecranul doi
         baza.incarcDoi();
     }
 
     @FXML
-    void initialize() {
-
+    void maideparte2(ActionEvent event) {
+// Incarc ecranul doi
+        baza.incarcDoi();
     }
+
+    @FXML
+    void maideparte3(ActionEvent event) {
+// Incarc ecranul doi
+        baza.incarcDoi();
+    }
+
+    @FXML
+    void maideparte4(ActionEvent event) {
+// Incarc ecranul doi
+        baza.incarcDoi();
+    }
+
+    @FXML
+    void maideparte5(ActionEvent event) {
+// Incarc ecranul doi
+        baza.incarcDoi();
+    }
+
+    @FXML
+    void maideparte6(ActionEvent event) {
+// Incarc ecranul doi
+        baza.incarcDoi();
+    }
+
+    @FXML
+    void maideparte7(ActionEvent event) {
+// Incarc ecranul doi
+        baza.incarcDoi();
+    }
+
+    @FXML
+    void maideparte8(ActionEvent event) {
+// Incarc ecranul doi
+        baza.incarcDoi();
+    }
+
+    @FXML
+    void maideparte9(ActionEvent event) {
+// Incarc ecranul doi
+        baza.incarcDoi();
+    }
+
+//    @FXML
+//    void initialize() {
+//
+//    }
 }
