@@ -11,8 +11,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
- 
- 
+
 public class Baza extends Application {
 
     Stage fereastra;
@@ -61,6 +60,22 @@ public class Baza extends Application {
         }
         ctrDoi = loader.getController();
         ctrDoi.setBaza(this);
+    }
+    TreiController ctrTrei;
+
+    public void incarcTrei() {
+        FXMLLoader loader = new FXMLLoader(this.getClass().getResource("trei.fxml"));
+        AnchorPane container;
+        try {
+            container = (AnchorPane) loader.load();
+            Scene scene = new Scene(container);
+            fereastra.setScene(scene);
+            fereastra.sizeToScene();
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
+        ctrTrei = loader.getController();
+        ctrTrei.setBaza(this);
     }
 
     /**

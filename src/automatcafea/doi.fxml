@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="590.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="automatcafea.DoiController">
+<AnchorPane id="AnchorPane" prefHeight="590.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="automatcafea.DoiController">
    <children>
       <ImageView fitHeight="598.0" fitWidth="404.0" layoutX="1.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="-0.666656494140625" AnchorPane.topAnchor="-2.0">
          <image>
@@ -25,21 +25,22 @@
       <ComboBox fx:id="denumireprodus" layoutX="32.0" layoutY="179.0" prefWidth="150.0" />
       <TextArea fx:id="ingrediente" layoutX="38.0" layoutY="252.0" prefHeight="200.0" prefWidth="200.0" />
       <TextField fx:id="cantitate" layoutX="38.0" layoutY="505.0" />
-      <Label layoutX="33.0" layoutY="155.0" text="Selectati produsul" textFill="#0ebbf0">
+      <Label layoutX="33.0" layoutY="155.0" text="Selectati produsul" textFill="#f5f2f2">
          <font>
-            <Font size="19.0" />
+            <Font name="DejaVu Sans Bold" size="20.0" />
          </font>
       </Label>
-      <Label layoutX="38.0" layoutY="222.0" text="Ingrediente" textFill="#0ebbf0">
+      <Label layoutX="38.0" layoutY="222.0" text="Ingrediente" textFill="#f5f2f2">
          <font>
-            <Font size="19.0" />
+            <Font name="DejaVu Sans Bold" size="20.0" />
          </font>
       </Label>
-      <Label layoutX="38.0" layoutY="483.0" text="Cantitate" textFill="#0ebbf0">
+      <Label layoutX="38.0" layoutY="483.0" text="Cantitate" textFill="#f5f2f2">
          <font>
-            <Font size="19.0" />
+            <Font name="DejaVu Sans Bold" size="20.0" />
          </font>
       </Label>
       <Button fx:id="inapoi" layoutX="288.0" layoutY="505.0" mnemonicParsing="false" onAction="#goBack" text="Inapoi" />
+      <Button fx:id="prepararebautura" layoutX="245.0" layoutY="84.0" mnemonicParsing="false" onAction="#maideparte" prefHeight="26.0" prefWidth="150.0" text="Preparare bautura" />
    </children>
 </AnchorPane>
